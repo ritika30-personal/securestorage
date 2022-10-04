@@ -81,7 +81,7 @@ class _AuthViewPageState extends State<AuthViewPage> {
                         password: passwordController.text
                       ));
                       Navigator.pushReplacement(context,MaterialPageRoute(builder: (context){
-                        return HomeViewPage();
+                        return const HomeViewPage();
                       }));
                     },
                     fillColor: Colors.cyanAccent,

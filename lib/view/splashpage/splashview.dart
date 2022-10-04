@@ -60,7 +60,9 @@ class _SplashViewState extends State<SplashView> {
       width: MediaQuery.of(context).size.width,
       height: MediaQuery.of(context).size.height,
       color: const Color(0xff59fde4),
-
+      child: Center(
+        child: Icon(Icons.home_filled,size: 40,color: Colors.white,),
+      ),
     );
   }
 }
