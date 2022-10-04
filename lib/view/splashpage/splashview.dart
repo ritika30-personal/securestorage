@@ -3,7 +3,6 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:storagesecured/localStorage/local_storage.dart';
-import 'package:storagesecured/model/auth_model.dart';
 import 'package:storagesecured/view/homeview/homeview.dart';
 import 'package:storagesecured/viewmodel/authmodelValue.dart';
 import 'package:storagesecured/view/splashpage/authview.dart';
